@@ -1,0 +1,256 @@
+
+.headername {
+    position: static;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+}
+
+
+.headericon {
+    background-color: black;
+    border-radius: 50%;
+    margin: 0px 10px;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    color: white;
+}
+
+.leave-btn {
+    width: 168px;
+    height: 45px;
+    padding: 14px 20px;
+    outline: none;
+    border: none;
+    float: right;
+    background: #F16667;
+    border-radius: 60px;
+    color: white;
+}
+
+.text-session {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.content {
+    padding: 20px;
+    /* height: 554px; */
+}
+
+.tag {
+    float: right;
+    position: relative;
+    left: -80px;
+    top: 40px;
+    z-index: 1000;
+    width: 81px;
+    height: 22px;
+    border-radius: 5px;
+    background-color: #F16667;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35);
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.presentation-screen {
+    margin: 0rem 3rem;
+    border-radius: 30px;
+    height: 100%;
+    width: 90%;
+}
+
+.presentation-img {
+    float: right;
+    position: relative;
+    left: -80px;
+    bottom: 100px;
+    z-index: 1000;
+    width: 122px;
+    height: 85px;
+    border-radius: 5px;
+}
+
+.meeticon {
+    text-align: center !important;
+    width: 45px;
+    height: 45px;
+    border-radius: 60px;
+    padding-top: 15px;
+    color: white;
+    margin: 25px 14px;
+    cursor: pointer;
+}
+
+
+.blue-bg {
+    background: #1279C8;
+}
+
+.off-bg {
+    background: #D8EDFE;
+    color: black;
+}
+
+.toggle-box-btn {
+    width: 24px;
+    height: 5rem;
+    background-color: #F3F4F6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-top: 1.7rem !important;
+}
+
+.chat {
+    font-family: 'Montserrat';
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 25px !important;
+    width: 95%;
+    height:93% !important;
+    border-bottom-left-radius: 10px;
+}
+
+.msg {
+    text-align: left;
+    margin-left: 13px !important;
+}
+
+
+.msg-time {
+    font-weight: 500;
+    font-size: 10px;
+    font-weight: 500;
+    font-size: 10px;
+    opacity: 0.5;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-left: 5px
+}
+
+
+.msg-content {
+    margin-left: 5px;
+    color: #556575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+
+.thumb-img {
+    height: 25px;
+    position: absolute;
+    right: 60px;
+    bottom: 27px;
+}
+
+
+div, section {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+/* 
+button {
+   
+    background: #F16667;
+    border-radius: 60px;
+    color: white;
+    float: right;
+} */
+
+.section {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.tutor-img {
+    width: 90%;
+    height: 25%;
+    margin: 24px 10px;
+}
+
+.textbox {
+    height: 50px;
+    width: 90%;
+    margin: 12px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #C3DCEF;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+}
+
+
+
+hr {
+    border-bottom: 1px solid grey;
+    opacity: 0.20;
+    margin: 5px 10px !important;
+    width: 97%;
+    text-align: center;
+}
+
+
+
+
+.mat-tab-label {
+    min-width: 80px !important;
+    font-size: 16;
+    font-weight: 700;
+   
+}
+
+
+
+.mat-tab-labels {
+    margin-left: 30px !important;
+}
+
+
+.mat-tab-label .mat-tab-label-content {
+    margin-left: -4px !important;
+}
+
+/* Styles for the ink bar */
+
+.mat-ink-bar {
+    background-color: blue;
+}
+
+
+
+
+
+/* Font Awesome Icons */
+
+.min-container .card-panel form .fa {
+    top: 13px;
+    right: 1rem;
+}
+
+.form-group a i {
+    font-family: FontAwesome;
+    margin: 0 auto;
+    font-size: 5rem;
+    font-style: normal;
+}
+
+@media (min-width: 1200px) {
+    .thumb-img {
+        right: 25px !important;
+    }
+}
